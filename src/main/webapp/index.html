@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Trends 2025</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero-header {
+            background: linear-gradient(135deg, #6f42c1 0%, #5a6fb8 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .trend-card {
+            transition: transform 0.3s;
+        }
+        .trend-card:hover {
+            transform: translateY(-5px);
+        }
+        .trend-item {
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            margin: 1rem 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .chart-container {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .skill-badge {
+            background-color: #6f42c1;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0.2rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="hero-header">
+        <div class="container">
+            <h1>DevOps Trends 2025</h1>
+            <p class="lead">What's Hot in the DevOps World</p>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="text-danger fs-5 mb-4">Updates from Bright Mind Tech</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <!-- Top Trends -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center mb-4">Top DevOps Trends Right Now</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="trend-item">
+                    <h4><i class="fas fa-shield-alt text-success me-2"></i>1. DevSecOps Integration</h4>
+                    <p>Security is being baked into every stage of the development lifecycle, not added as an afterthought.</p>
+                    <span class="skill-badge">Security</span>
+                    <span class="skill-badge">Shift-Left</span>
+                </div>
+                
+                <div class="trend-item">
+                    <h4><i class="fas fa-server text-info me-2"></i>2. GitOps Methodology</h4>
+                    <p>Git as the single source of truth for infrastructure and application deployment.</p>
+                    <span class="skill-badge">GitOps</span>
+                    <span class="skill-badge">Infrastructure as Code</span>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="trend-item">
+                    <h4><i class="fas fa-cloud text-warning me-2"></i>3. Multi-Cloud Strategies</h4>
+                    <p>Organizations are adopting multiple cloud providers to avoid vendor lock-in and optimize costs.</p>
+                    <span class="skill-badge">Multi-Cloud</span>
+                    <span class="skill-badge">Cost Optimization</span>
+                </div>
+                
+                <div class="trend-item">
+                    <h4><i class="fas fa-eye text-purple me-2"></i>4. Observable Infrastructure</h4>
+                    <p>Advanced monitoring, logging, and tracing for better system understanding and performance.</p>
+                    <span class="skill-badge">Observability</span>
+                    <span class="skill-badge">Monitoring</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Tools Ranking -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center mb-4">Most Popular DevOps Tools (2025)</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="chart-container">
+                    <h5>Tool Usage Rankings</h5>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span>1. Kubernetes</span>
+                            <span class="text-muted">87%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 87%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span>2. Docker</span>
+                            <span class="text-muted">85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span>3. Jenkins</span>
+                            <span class="text-muted">73%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" style="width: 73%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span>4. Terraform</span>
+                            <span class="text-muted">68%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 68%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span>5. Prometheus</span>
+                            <span class="text-muted">62%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width: 62%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Salary Trends -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center mb-4">DevOps Salary Trends</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card shadow-sm trend-card">
+                    <div class="card-body text-center">
+                        <h5>Junior DevOps Engineer</h5>
+                        <h3 class="text-success">$65,000 - $85,000</h3>
+                        <p class="text-muted">Entry level, 0-2 years experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow-sm trend-card">
+                    <div class="card-body text-center">
+                        <h5>Senior DevOps Engineer</h5>
+                        <h3 class="text-warning">$95,000 - $130,000</h3>
+                        <p class="text-muted">3-6 years experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow-sm trend-card">
+                    <div class="card-body text-center">
+                        <h5>DevOps Architect</h5>
+                        <h3 class="text-primary">$140,000 - $180,000</h3>
+                        <p class="text-muted">7+ years experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+<div class="text-center mt-4 mb-3">
+    <p class="text-muted">Bright Mind Tech</p>
+    <!-- Status -->
+    <a href="status" class="btn btn-sm btn-outline-secondary mt-2">Server Status</a>
+</div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
